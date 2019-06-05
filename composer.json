@@ -17,6 +17,7 @@
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
+        "jeroen-g/laravel-packager": "^2.1",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^3.0",
         "phpunit/phpunit": "^7.5"
@@ -33,6 +34,7 @@
     },
     "autoload": {
         "psr-4": {
+            "Acme\\PageReview\\": "packages/Acme/PageReview/src",
             "Pushrealtime\\": "app/"
         },
         "classmap": [
@@ -42,6 +44,7 @@
     },
     "autoload-dev": {
         "psr-4": {
+            "Acme\\PageReview\\": "packages/Acme/PageReview/src",
             "Tests\\": "tests/"
         }
     },

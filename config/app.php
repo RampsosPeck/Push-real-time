@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Acme\PageReview\PageReviewServiceProvider::class,
 
         /*
          * Application Service Providers...
